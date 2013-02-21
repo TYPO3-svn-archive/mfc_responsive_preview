@@ -1,0 +1,39 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+	<title>Untitled</title>
+</head>
+<body>
+
+<!-- ###FULLDOC### begin -->
+<div class="typo3-fullDoc">
+	<div id="typo3-docheader">
+		<div class="typo3-docheader-functions">
+			<div class="left">###LABEL_SIZE_SELECT###: ###SIZE_SELECT###</div>
+			<div class="right">###PAGEPATH###</div>
+		</div>
+		<div class="typo3-docheader-buttons">
+			<div class="left">###BUTTONLIST_LEFT###</div>
+			<div class="right">###BUTTONLIST_RIGHT###</div>
+		</div>
+	</div>
+
+	<div id="typo3-docbody" style="background-color: #dadada">
+		<div id="typo3-inner-docbody" style="height: 100%;">
+			<iframe src="index.php?action=redirect&###QUERY###" id="view_frame"
+				style="background-color: #ffffff; border: none; display: block; margin: 0 auto; height: ###HEIGHT###; width: ###WIDTH###"></iframe>
+		</div>
+	</div>
+</div>
+<!-- ###FULLDOC### end -->
+
+<!-- ###BUTTON_GROUPS_LEFT### -->
+<!-- ###BUTTON_GROUP1### --><a href="javascript:" onclick="window.open('###LINK_SHOW###', '');">###ICON_SHOW###</a><!-- ###BUTTON_GROUP1### -->
+<!-- ###BUTTON_GROUPS_LEFT### -->
+
+<!-- ###BUTTON_GROUPS_RIGHT### -->
+<!-- ###BUTTON_GROUP1### --><a href="javascript:" onclick="document.getElementById('tx_viewpage_iframe').contentWindow.location.reload();">###ICON_REFRESH###</a>###ICON_SHORTCUT###<!-- ###BUTTON_GROUP1### -->
+<!-- ###BUTTON_GROUPS_RIGHT### -->
+
+</body>
+</html>

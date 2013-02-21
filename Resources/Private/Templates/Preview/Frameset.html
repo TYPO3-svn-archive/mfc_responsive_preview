@@ -1,0 +1,35 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+	<title>View Frameset</title>
+</head>
+
+<!-- ###FULLDOC### begin -->
+<script language="javascript" type="text/javascript">
+	if (top.fsMod) {
+		top.fsMod.recentIds['web'] = '###PAGE_ID###';
+	}
+</script>
+<frameset rows="49,*" framespacing="0" frameborder="0" border="0">
+	<frame id="select_size" src="index.php?action=select&id=###PAGE_ID###" marginwidth="0" marginheight="0" frameborder="0" scrolling="0"
+		   scrolling="no" noresize>
+	<frame id="view_frame" src="index.php?action=subframe&###QUERY###" marginwidth="0" marginheight="0" frameborder="0" scrolling="auto"
+		   noresize>
+</frameset>
+<!-- ###FULLDOC### end -->
+
+<!-- ###BUTTON_GROUP_WRAP### -->
+<!-- Wrapper for button group -->
+<div class="buttongroup">###BUTTONS###</div>
+<!-- ###BUTTON_GROUP_WRAP### -->
+
+<!-- ###BUTTON_GROUPS_LEFT### -->
+<!-- ###BUTTON_GROUP1### -->###BACK###<!-- ###BUTTON_GROUP1### -->
+<!-- ###BUTTON_GROUP3### -->###VIEW######EDIT######RECORD_LIST###<!-- ###BUTTON_GROUP3### -->
+<!-- ###BUTTON_GROUPS_LEFT### -->
+
+<!-- ###BUTTON_GROUPS_RIGHT### -->
+<!-- ###BUTTON_GROUP1### -->###RELOAD######EXPORT######SHORTCUT###<!-- ###BUTTON_GROUP1### -->
+<!-- ###BUTTON_GROUPS_RIGHT### -->
+
+</html>

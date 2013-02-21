@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for extension &quot;heatmap&quot;</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="responsive_preview">Preview (responsive)</label>
+			<label index="responsive_preview_size">Size</label>
+			<label index="tsfe_hook_title">Responsive Preview (Size: %1$s)</label>
+		</languageKey>
+	</data>
+</T3locallang>
